@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import './App.css';
+import Recipe from './Recipe';
 
 const App = () =>{
   const APP_ID = "6adfadca";
@@ -18,7 +19,7 @@ const App = () =>{
   }
   return(
     <div className="App">
-        <form className="sarch-form">
+        <form className="search-form">
           <input className="search-bar" type="text"/>
           <button className="search-button" type="submit">Search</button>
         </form>

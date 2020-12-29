@@ -8,3 +8,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.search-button{
+  background: #fa709a;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  
+}
